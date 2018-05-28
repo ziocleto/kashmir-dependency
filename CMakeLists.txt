@@ -3,4 +3,4 @@ PROJECT(kashmir)
 
 #ADD_LIBRARY(kashmir cli.cpp)
 
-INSTALL (FILES kashmir/* DESTINATION "${CMAKE_INSTALL_INCDIR}/kashmir/")
+INSTALL (FILES kashmir/.* DESTINATION "${CMAKE_INSTALL_INCDIR}/kashmir/")
