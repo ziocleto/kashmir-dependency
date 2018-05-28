@@ -1,6 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6.0)
 PROJECT(kashmir)
 
-ADD_LIBRARY(kashmir cli.cpp)
+#ADD_LIBRARY(kashmir cli.cpp)
 
 INSTALL (FILES kashmir/* DESTINATION "${CMAKE_INSTALL_INCDIR}/kashmir/")
